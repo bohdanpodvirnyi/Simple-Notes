@@ -1,5 +1,5 @@
 //
-//  Simple_NotesApp.swift
+//  App.swift
 //  Simple Notes
 //
 //  Created by Bohdan on 10/3/20.
@@ -11,7 +11,7 @@ import SwiftUI
 struct Simple_NotesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(Store())
         }
     }
 }
